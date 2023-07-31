@@ -1,0 +1,205 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header Styles */
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 90px; /* Adjust the width as needed */
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 30px; 
+    color: white;  
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu li a:hover {
+    background-color: #555;
+}
+
+/* Main Content Styles */
+main {
+    padding: 2rem;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h2 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: #00aa00;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #007700;
+}
+
+/* About Section Styles */
+.about {
+    background-color: #f9f9f9;
+    padding: 3rem 0;
+}
+
+/* Contact Section Styles */
+.contact {
+    background-color: #f0f0f0;
+    padding: 3rem 0;
+}
+
+.contact form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact form label {
+    font-weight: bold;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background-color: #00aa00;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact form button:hover {
+    background-color: #007700;
+}
+
+/* Events Section Styles */
+.events {
+    background-color: #f9f9f9;
+    padding: 3rem 0;
+}
+
+.events h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.event {
+    margin-bottom: 2rem;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #00aa00;
+}
+
+.footer p {
+    font-size: 0.9rem;
+}
