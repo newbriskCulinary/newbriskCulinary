@@ -3,12 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New and Brisk Culinary School</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>New and Brisk Culinary</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="script.js"></script>
@@ -16,214 +13,408 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-        rel="stylesheet">
-
-    <!-- Vendor CSS Files -->
-    <link href="vendor/aos/aos.css" rel="stylesheet">
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <script src="https://js.paystack.co/v1/inline.js"></script>
 
 
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <style>
+        .mission-section {
+            background-color: black;
+            color: white;
+            padding: 40px 0;
+        }
+
+        .section-heading {
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .mission-text {
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .footer {
+            background-color: black;
+            color: white;
+            padding: 40px 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .footer-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .footer-col {
+            flex-basis: 30%;
+            margin-bottom: 20px;
+        }
+
+        .footer-heading {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .footer-text {
+            color: #ccc;
+            margin-bottom: 20px;
+        }
+
+        .social-icons a {
+            color: white;
+            font-size: 20px;
+            margin-right: 10px;
+        }
+
+        .footer-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-list li {
+            margin-bottom: 10px;
+        }
+
+        .fa-phone,
+        .fa-instagram,
+        .fa-whatsapp,
+        .fa-facebook,
+        .fa-twitter {
+            margin-right: 5px;
+        }
+
+        .navbar-custom {
+            background-color: #f8f9fa;
+            padding: 15px;
+        }
+
+        .navbar-custom .navbar-brand {
+            font-weight: bold;
+        }
+
+        .jumbotron {
+            background-image: url('img/nnb.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: left;
+            height: 500px;
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        /* Optional custom styles for text and buttons */
+        /* You can modify these styles as needed */
+        .jumbotron h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .jumbotron p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .jumbotron .btn {
+            font-size: 18px;
+            padding: 10px 30px;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
-        <!-- <nav class="navbar  navbar-expand-lg p-3 bg-light navbar-light fixed-top">
+    <section id="home">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 fixed-top">
             <div class="container">
-                <a href="#" class="logo" style="text-decoration: none;">
-                    <img src="img/nnb.jpg" alt="New and Brisk Culinary School Logo">
-                    <span class="navbar-brand" style="font-weight: bold; font-style: italic;">New and Brisk Culinary
-                        School</span>
-                </a>
+                <a href="#" class="navbar-brand" style="font-weight: bold; font-style: italic;"> New and Brisk Culinary School</a>
+                <img src="img/nnb.jpg" style="height: 70px; width: 100px;  "  >
                 <button class="navbar-toggler" data-bs-target="#nav" data-bs-toggle="collapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="nav">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+                        <li class="nav-item"> <a href="index.html" class="nav-link active">Home</a> </li>
+                        <li class="nav-item"> <a href="#home" class="nav-link">Courses</a> </li>
+                        <li class="nav-item"> <a href="#facts" class="nav-link">Facts</a> </li>
+                        <li class="nav-item"> <a href="#About" class="nav-link">About Us</a> </li>
+                        <li class="nav-item"> <a href="#request" class="nav-link">Contact Request</a> </li>
+                        <li class="nav-item"> <a href="#events" class="nav-link" style="font-weight: bold;">Events</a> </li>
                     </ul>
                 </div>
-
             </div>
-        </nav> -->
+        </nav>
+    </section>
 
-        <!-- <nav class="navbar  navbar-expand-lg  bg-dark navbar-dark fixed-top " >
-            <div class="container d-flex justify-content-between" style=" justify-content: space-between; display: flex; flex-wrap: wrap; " >
-              <div class="logo">
-                <img src="img/nnb.jpg" class="logo-img" >
-              </div>
-          
-              <div>
-                <ul class="d-flex" style="display: flex; flex-wrap: wrap; " >
-                  <li class="nav-item" ><a class="nav-link" href="#home">Home</a></li>
-                  <li><a class="nav-link"  href="#contact">Contact</a></li>
-                  <li><a class="nav-link"  href="#about">About</a></li>
-                  <li><a class="nav-link"  href="#courses">Courses</a></li>
-                  <li><a class="nav-link"  href="#events">Events</a></li>
-                </ul>
-              </div>
-            </div>
-          </nav> -->
+    <section id="home" class="hero">
+        <div class="container">
+            <!-- <img src="img/nnb.jpg" alt="New and Brisk Culinary School Logo"> -->
+            <h2>Welcome to New and Brisk Culinary School</h2>
+            <h4>Learn the art of cooking from our expert chefs.</h4>
+            <p id="demo" style="color: white;">
+             At New and Brisk, we take pride in honing the culinary skills of passionate food enthusiasts and aspiring chefs. Our institute is a haven for those who seek to embark on a culinary journey filled with creativity, innovation, and the art of flavors.
+                With a rich history of culinary excellence, we strive to provide a nurturing environment that fosters learning, experimentation, and growth.</p>
+            <!-- <p id="demo"></p> -->
+            <!-- <div class="d-flex"> -->
+                <button class="cta-btn mx-2" onclick="typeWriter()">Read more</button>
+            <!-- </div> -->
+            <a href="#courses" class="cta-btn">Explore Courses</a>
+        </div>
+    </section>
 
-        <section id="home">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3 fixed-top">
-                <div class="container">
-                    <a href="#" class="navbar-brand" style="font-weight: bold; font-style: italic;"> New And Brisk
-                        Culinary</a>
-                    <button class="navbar-toggler" data-bs-target="#nav" data-bs-toggle="collapse"  class="navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="nav">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item"> <a href="#" class="nav-link active">Home</a> </li>
-                            <li class="nav-item"> <a href="#contact" class="nav-link">Contact</a> </li>
-                            <li class="nav-item"> <a href="#courses" class="nav-link">Courses</a> </li>
-                            <li class="nav-item"> <a href="#about" class="nav-link">About Us</a> </li>
-                            <li class="nav-item"> <a href="#events" class="nav-link">Event</a> </li>
-                        </ul>
+
+    <div class="container" style="margin-top: 15px;" >
+        <div class="row">
+            <div class="col-md-6 text-center text-sm-start">
+                <h1 class="display-4 fw-bold"> The Best in <span style="color: #358038;" >Culinary Arts and Event
+                        Services</span>
+                </h1>
+                <p class="my-3">
+                    Discover the art of culinary excellence at New and Brisk. Unleash your passion for cooking with our expert-led courses and hands-on approach. 
+                    Join us and embark on a journey of flavors, creativity, and endless possibilities in the world of gastronomy. 
+                    Elevate your culinary skills with us today!
+                </p>
+                <form action="https://formspree.io/f/mpzgaqkr" method="post">
+                    <div class="input-group shadow">
+                        <input type="email" placeholder="Enter your email" class="form-control p-3" name="email">
+                        <button class="btn btn-primary" style="background-color: #358038; border-color: #358038;" >Subscribe</button>
                     </div>
-                </div>
-            </nav>
-        </section>
-
-
-    </header>
-
-    <main class="container " style="margin-top: 40px;">
-        <section id="home" class="hero">
-            <div class="container">
-                <img src="img/nnb.jpg" alt="New and Brisk Culinary School Logo">
-                <h2>Welcome to New and Brisk Culinary School</h2>
-                <p>Learn the art of cooking from our expert chefs.</p>
-                <a href="#courses" class="cta-btn">Explore Courses</a>
-            </div>
-        </section>
-
-        <section id="about" class="about">
-            <div class="container">
-                <h2>About Us</h2>
-                <p>Welcome to New and Brisk Culinary School, where culinary passion meets culinary excellence. Our
-                    school is dedicated to nurturing aspiring chefs and culinary enthusiasts, providing them with the
-                    skills and knowledge needed to embark on a successful culinary journey.</p>
-                <p>At New and Brisk, we believe that cooking is an art form, and our mission is to inspire creativity,
-                    innovation, and a deep appreciation for the culinary arts. Whether you dream of becoming a renowned
-                    chef or simply want to master the art of cooking for your loved ones, we have a range of courses
-                    tailored to suit your goals and aspirations.</p>
-                <p>Our experienced and talented team of professional chefs brings a wealth of industry expertise to the
-                    classroom. They are committed to creating a dynamic and immersive learning environment, where
-                    students can explore various cuisines, techniques, and trends in the culinary world.</p>
-                <p>What sets New and Brisk apart is our state-of-the-art facilities, well-equipped kitchens, and
-                    hands-on approach to learning. Our small class sizes ensure personalized attention and ample
-                    opportunities for practical experience, allowing students to refine their skills and build
-                    confidence in the kitchen.</p>
-                <p>Whether you're a beginner looking to start your culinary journey or a seasoned cook seeking to
-                    elevate your skills, we welcome you to join our vibrant community of food enthusiasts. Discover the
-                    joy of cooking and unleash your culinary creativity with us at New and Brisk Culinary School.</p>
-            </div>
-        </section>
-
-        <section id="contact" class="contact">
-            <div class="container">
-                <h2>Contact Us</h2>
-                <p>If you have any questions or inquiries, please feel free to get in touch with us using the contact
-                    form below. We'll get back to you as soon as possible.</p>
-                <form>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-
-                    <button type="submit" class="cta-btn">Send Message</button>
                 </form>
             </div>
-        </section>
-
-        <section id="events" class="events">
-            <div class="container">
-                <h2>EVENTS</h2>
-                <div class="event">
-                    <h3 style="font-weight: bold;">Summer Class: <span
-                            style="font-style: italic; font-weight: 400; ">Children Summer Cooking Class</span> </h3>
-                    <p style="font-weight: bold;">Date(Stream1): <span style="font-style: italic; font-weight: 400; ">
-                            24th July - 11th August, 2023 </span> </p>
-                    <p style="font-weight: bold;">Date(Stream2): <span
-                            style="font-style: italic; font-weight: 400; ">14th August - 1st September, 2023 </span>
-                    </p>
-                    <p style="font-weight: bold;">Price: <span style="font-style: italic; font-weight: 400; ">NGN45000
-                        </span> </p>
-                    <p style="font-weight: bold;">Price(earlybirds): <span
-                            style="font-style: italic; font-weight: 400; "> NGN40000</span> </p>
-                    <p style="font-weight: bold;">Ages: <span style="font-style: italic; font-weight: 400; "> 7 -
-                            15</span> </p>
-                    <p style="font-weight: bold;">Time: <span style="font-style: italic; font-weight: 400; ">6:00 PM -
-                            8:00 PM</span> </p>
-                    <p style="font-weight: bold;">Location: <span style="font-style: italic; font-weight: 400; ">New and
-                            Brisk Culinary School, Plot 6095, Cadastral Zone F-14,opp Amazing kids Schoool, Buzango,
-                            Nepa road, kubwa </span> </p>
-                    <p style="font-weight: bold;">Join us for an exclusive summer class on the art of Kitchen etiquette,
-                        Food appreciation, Pastries and many more. Our expert chefs will take you through the techniques
-                        and flavors that define classic French dishes.</p>
-                </div>
-                <!-- Add more events as needed -->
+            <div class="col-md-6 d-none d-sm-block">
+                <figure class="d-flex justify-content-center">
+                    <img src="img/nnb.jpg" alt="" style="width: 600px; height: 500px;"  class="rounded-2">
+                </figure>
             </div>
-        </section>
-    </main>
+        </div>
+    </div>
+    </div>
+
+    <section class="my-5" id="About">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 my-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Mission Statement</h5>
+                            <p class="card-text">At New and Brisk Culinary School, our mission is to inspire and empower aspiring chefs and culinary enthusiasts to reach their full potential.
+                                 We are committed to providing a world-class culinary education, fostering creativity, and nurturing a culture of excellence. Through hands-on training, innovative techniques, 
+                                and a passion for gastronomy, we aim to shape the future leaders of the culinary industry.</p>
+                 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 my-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Vision Statement</h5>
+                            <p class="card-text">
+                                Our vision at New and Brisk Culinary School is to be a globally recognized center of culinary excellence. We strive to set new 
+                                standards in culinary education, continuously adapting to industry trends and advancements. With a focus on sustainability, diversity, and culinary innovation, we envision creating a 
+                                community of culinary professionals who leave a lasting impact on the world's culinary landscape.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="events">
+        <div class="container">
+            <h2>EVENTS</h2>
+            <div class="event">
+                <h3 style="font-weight: bold;">Summer Class: <span
+                        style="font-style: italic; font-weight: 400; ">Children Summer Cooking Class</span> </h3>
+                <p style="font-weight: bold;">Date(Stream1): <span style="font-style: italic; font-weight: 400; ">
+                        24th July - 11th August, 2023 </span> </p>
+                <p style="font-weight: bold;">Date(Stream2): <span
+                        style="font-style: italic; font-weight: 400; ">14th August - 1st September, 2023 </span>
+                </p>
+                <p style="font-weight: bold;">Price: <span style="font-style: italic; font-weight: 400; ">NGN45000
+                    </span> </p>
+                <p style="font-weight: bold;">Price(earlybirds): <span
+                        style="font-style: italic; font-weight: 400; "> NGN40000</span> </p>
+                <p style="font-weight: bold;">Ages: <span style="font-style: italic; font-weight: 400; "> 7 -
+                        15</span> </p>
+                <p style="font-weight: bold;">Time: <span style="font-style: italic; font-weight: 400; ">6:00 PM -
+                        8:00 PM</span> </p>
+                <p style="font-weight: bold;">Location: <span style="font-style: italic; font-weight: 400; ">New and
+                        Brisk Culinary School, Plot 6095, Cadastral Zone F-14,opp Amazing kids Schoool, Buzango,
+                        Nepa road, kubwa </span> </p>
+                <p style="font-weight: bold;">Join us for an exclusive summer class on the art of Kitchen etiquette,
+                    Food appreciation, Pastries and many more. Our expert chefs will take you through the techniques
+                    and flavors that define classic French dishes.</p>
+            </div>
+            <!-- Add more events as needed -->
+        </div>
+    </section>
+
+    
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Facts</h2>
+                <p>Below are facts to be taken into consideration by client </p>
+            </div>
+
+            <div class="row no-gutters">
+
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+                    <div class="count-box">
+                        <i class="bi bi-emoji-smile"></i>
+                        <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1"
+                            class="purecounter"></span>
+                        <p><strong>Happy Clients</strong> from across the globe</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+                    <div class="count-box">
+                        <i class="bi bi-journal-richtext"></i>
+                        <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1"
+                            class="purecounter"></span>
+                        <p><strong>Events</strong> in different aspects of Entertainment</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+                    <div class="count-box">
+                        <i class="bi bi-headset"></i>
+                        <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1"
+                            class="purecounter"></span>
+                        <p><strong>Hours Of Support</strong> from Event Planners and promotion teams</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+                    <div class="count-box">
+                        <i class="bi bi-people"></i>
+                        <span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1"
+                            class="purecounter"></span>
+                        <p><strong>Major Brands</strong> have collaborated with me to achieve a series of goals</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Facts Section -->
+
+
+
+
+    <section class="p-5 bg-white " id="request">
+        <div class="container">
+            <h4 class="display-6 mb-5 text-center fw-bold ">Contact Request</h4>
+            <form action="https://formspree.io/f/mpzgaqkr" method="post">
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <input type="text" name="fullname" class="form-control rounded-0" placeholder="Fullname">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <input type="email" name="email" class="form-control rounded-0" placeholder="Email">
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <textarea name="message" id="" cols="30" rows="3" class="form-control rounded-0"
+                            placeholder="Write your message here"></textarea>
+                    </div>
+
+                    <div class='pt-3'>
+                        <button class="cta-btn  rounded-2 ">
+                            <i class="bi-send"></i> Submit
+                        </button>
+                    </div>
+            </form>
+        </div>
+    </section>
 
     <footer class="footer">
         <div class="container">
-            <div class="social-links">
-                <a href="https://www.facebook.com/@newandbrisk_culinary" target="_blank" class="social-icon"><i
-                        class="fab fa-facebook-f"></i></a>
-                <a href="https://www.twitter.com/@newandbrisk_culinary" target="_blank" class="social-icon"><i
-                        class="fab fa-twitter"></i></a>
-                <a href="http://www.instagram.com/newandbrisk_culinary" target="_blank" class="social-icon"><i
-                        class="fab fa-instagram"></i></a>
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h3 class="footer-heading">New and Brisk Culinary School</h3>
+                    <p class="footer-text">Connect with us:</p>
+                    <div class="social-icons">
+                        <a href="http://www.instagram.com/newandbrisk_culinary" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/+2348033310200" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <p><a href="http://www.instagram.com/newandbrisk_culinary" target="_blank" class="social-icon"><i
+                            class="fa-solid fa-location-dot"></i></a>New and Brisk Culinary School, Plot 6095, Cadastral
+                    Zone F-14,opp Amazing kids Schoool, Buzango, Nepa road, Kubwa </p>
+                <p>&copy; 2023 New and Brisk Culinary School. All rights reserved.</p>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-heading">Contact</h3>
+                    <ul class="footer-list">
+                        <li><i class="fas fa-phone"></i> (+234) 8033310200</li>
+                        <li><i class="fas fa-phone"></i> (+234) 7064366914</li>
+                        <li><i class="fas fa-envelope"></i> newandbrisk_culinary@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-heading">Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/@newandbrisk_culinary" target="_blank"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://www.twitter.com/@newandbrisk_culinary" target="_blank"><i
+                                class="fab fa-twitter"></i></a>
 
-                <!-- Add more social media links as needed -->
+                    </div>
+                </div>
             </div>
-            <p><a href="http://www.instagram.com/newandbrisk_culinary" target="_blank" class="social-icon"><i
-                        class="fa-solid fa-location-dot"></i></a>New and Brisk Culinary School, Plot 6095, Cadastral
-                Zone F-14,opp Amazing kids Schoool, Buzango, Nepa road, Kubwa </p>
-            <p>&copy; 2023 New and Brisk Culinary School. All rights reserved.</p>
         </div>
     </footer>
 
-    <!-- <script src="script.js"></script> -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- Vendor JS Files -->
-    <script src="vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="vendor/aos/aos.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="vendor/typed.js/typed.min.js"></script>
-    <script src="vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
     <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
+    
 </body>
 
 </html>
